@@ -3,4 +3,12 @@ name = "mi_lib"
 version = "0.1.0"
 edition = "2024"
 
+
+description = "Funciones de ejemplo para demostrar publicación en crates.io"
+license = "MIT"
+readme = "README.md"
+
 [dependencies]
+
+[lib]
+path = "src/lib.rs"
